@@ -2,6 +2,7 @@ apply plugin: 'java-library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api('me.drakeet.multitype:multitype:3.4.0')
 }
 
 sourceCompatibility = "7"
